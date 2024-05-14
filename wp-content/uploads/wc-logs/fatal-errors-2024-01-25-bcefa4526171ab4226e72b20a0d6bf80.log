@@ -1,0 +1,170 @@
+2024-01-25T09:48:20+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php on line 1846
+
+2024-01-25T10:14:56+00:00 CRITICAL Uncaught ArgumentCountError: urldecode() expects exactly 1 argument, 2 given in /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php:1846
+Stack trace:
+#0 /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php(1846): urldecode()
+#1 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/shortcodes.php(433): login_form()
+#2 [internal function]: do_shortcode_tag()
+#3 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/shortcodes.php(273): preg_replace_callback()
+#4 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode()
+#5 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#6 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#7 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(755): Elementor\Widget_Base->render_content()
+#8 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Widget_Base->print_content()
+#9 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#10 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#11 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#12 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#13 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#14 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#15 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#16 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#17 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/core/base/document.php(1749): Elementor\Element_Base->print_element()
+#18 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/core/base/document.php(1144): Elementor\Core\Base\Document->print_elements()
+#19 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/frontend.php(1179): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#20 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/frontend.php(1074): Elementor\Frontend->get_builder_content()
+#21 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content()
+#22 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#23 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/post-template.php(256): apply_filters()
+#24 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(190): the_content()
+#25 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#26 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(207): call_user_func()
+#27 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#28 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/template-loader.php(106): include('/home/u84453443...')
+#29 /home/u844534432/domains/followerstudio.net/public_html/wp-blog-header.php(19): require_once('/home/u84453443...')
+#30 /home/u844534432/domains/followerstudio.net/public_html/index.php(17): require('/home/u84453443...')
+#31 {main}
+  thrown in /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php on line 1846
+
+2024-01-25T11:33:26+00:00 CRITICAL Uncaught TypeError: urlencode(): Argument #1 ($string) must be of type string, array given in /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php:1850
+Stack trace:
+#0 /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php(1850): urlencode()
+#1 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/shortcodes.php(433): login_form()
+#2 [internal function]: do_shortcode_tag()
+#3 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/shortcodes.php(273): preg_replace_callback()
+#4 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode()
+#5 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#6 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#7 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(755): Elementor\Widget_Base->render_content()
+#8 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Widget_Base->print_content()
+#9 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#10 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#11 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#12 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#13 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#14 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#15 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#16 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#17 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/core/base/document.php(1749): Elementor\Element_Base->print_element()
+#18 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/core/base/document.php(1144): Elementor\Core\Base\Document->print_elements()
+#19 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/frontend.php(1179): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#20 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/frontend.php(1074): Elementor\Frontend->get_builder_content()
+#21 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content()
+#22 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#23 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/post-template.php(256): apply_filters()
+#24 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(190): the_content()
+#25 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#26 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(207): call_user_func()
+#27 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#28 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/template-loader.php(106): include('/home/u84453443...')
+#29 /home/u844534432/domains/followerstudio.net/public_html/wp-blog-header.php(19): require_once('/home/u84453443...')
+#30 /home/u844534432/domains/followerstudio.net/public_html/index.php(17): require('/home/u84453443...')
+#31 {main}
+  thrown in /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php on line 1850
+
+2024-01-25T11:33:43+00:00 CRITICAL Uncaught TypeError: urlencode(): Argument #1 ($string) must be of type string, array given in /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php:1850
+Stack trace:
+#0 /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php(1850): urlencode()
+#1 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/shortcodes.php(433): login_form()
+#2 [internal function]: do_shortcode_tag()
+#3 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/shortcodes.php(273): preg_replace_callback()
+#4 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode()
+#5 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#6 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#7 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(755): Elementor\Widget_Base->render_content()
+#8 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Widget_Base->print_content()
+#9 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#10 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#11 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#12 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#13 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#14 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#15 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#16 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#17 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/core/base/document.php(1749): Elementor\Element_Base->print_element()
+#18 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/core/base/document.php(1144): Elementor\Core\Base\Document->print_elements()
+#19 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/frontend.php(1179): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#20 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/frontend.php(1074): Elementor\Frontend->get_builder_content()
+#21 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content()
+#22 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#23 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/post-template.php(256): apply_filters()
+#24 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(190): the_content()
+#25 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#26 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(207): call_user_func()
+#27 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#28 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/template-loader.php(106): include('/home/u84453443...')
+#29 /home/u844534432/domains/followerstudio.net/public_html/wp-blog-header.php(19): require_once('/home/u84453443...')
+#30 /home/u844534432/domains/followerstudio.net/public_html/index.php(17): require('/home/u84453443...')
+#31 {main}
+  thrown in /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php on line 1850
+
+2024-01-25T11:34:02+00:00 CRITICAL Uncaught TypeError: urlencode(): Argument #1 ($string) must be of type string, array given in /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php:1850
+Stack trace:
+#0 /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php(1850): urlencode()
+#1 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/shortcodes.php(433): login_form()
+#2 [internal function]: do_shortcode_tag()
+#3 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/shortcodes.php(273): preg_replace_callback()
+#4 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode()
+#5 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#6 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#7 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(755): Elementor\Widget_Base->render_content()
+#8 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Widget_Base->print_content()
+#9 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#10 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#11 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#12 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#13 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#14 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#15 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#16 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#17 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/core/base/document.php(1749): Elementor\Element_Base->print_element()
+#18 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/core/base/document.php(1144): Elementor\Core\Base\Document->print_elements()
+#19 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/frontend.php(1179): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#20 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/includes/frontend.php(1074): Elementor\Frontend->get_builder_content()
+#21 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content()
+#22 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#23 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/post-template.php(256): apply_filters()
+#24 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(190): the_content()
+#25 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#26 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(207): call_user_func()
+#27 /home/u844534432/domains/followerstudio.net/public_html/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#28 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/template-loader.php(106): include('/home/u84453443...')
+#29 /home/u844534432/domains/followerstudio.net/public_html/wp-blog-header.php(19): require_once('/home/u84453443...')
+#30 /home/u844534432/domains/followerstudio.net/public_html/index.php(17): require('/home/u84453443...')
+#31 {main}
+  thrown in /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php on line 1850
+
+2024-01-25T13:04:04+00:00 CRITICAL syntax error, unexpected token "exit", expecting "," or ";" in /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php on line 212
+
+2024-01-25T13:04:09+00:00 CRITICAL syntax error, unexpected token "exit", expecting "," or ";" in /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php on line 212
+
+2024-01-25T13:04:09+00:00 CRITICAL syntax error, unexpected token "exit", expecting "," or ";" in /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php on line 212
+
+2024-01-25T13:04:10+00:00 CRITICAL syntax error, unexpected token "exit", expecting "," or ";" in /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php on line 212
+
+2024-01-25T13:04:13+00:00 CRITICAL syntax error, unexpected token "exit", expecting "," or ";" in /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php on line 212
+
+2024-01-25T13:04:14+00:00 CRITICAL syntax error, unexpected token "exit", expecting "," or ";" in /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php on line 212
+
+2024-01-25T13:04:15+00:00 CRITICAL syntax error, unexpected token "exit", expecting "," or ";" in /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php on line 212
+
+2024-01-25T13:04:18+00:00 CRITICAL syntax error, unexpected token "exit", expecting "," or ";" in /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php on line 212
+
+2024-01-25T13:04:19+00:00 CRITICAL syntax error, unexpected token "exit", expecting "," or ";" in /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php on line 212
+
+2024-01-25T13:04:23+00:00 CRITICAL syntax error, unexpected token "exit", expecting "," or ";" in /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php on line 212
+
+2024-01-25T13:04:26+00:00 CRITICAL syntax error, unexpected token "exit", expecting "," or ";" in /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php on line 212
+
+2024-01-25T13:04:27+00:00 CRITICAL syntax error, unexpected token "exit", expecting "," or ";" in /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php on line 212
+

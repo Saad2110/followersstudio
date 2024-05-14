@@ -1,0 +1,54 @@
+2024-05-14T15:05:24+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\freshwordpress/fpdf186/fpdf.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\freshwordpress\wp-content\themes\hello-elementor-child\invoice.php:3
+Stack trace:
+#0 C:\xampp\htdocs\freshwordpress\wp-content\themes\hello-elementor-child\functions.php(7): require_once()
+#1 C:\xampp\htdocs\freshwordpress\wp-settings.php(663): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freshwordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freshwordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freshwordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\freshwordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\freshwordpress\wp-content\themes\hello-elementor-child\invoice.php on line 3
+
+2024-05-14T15:05:25+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\freshwordpress/fpdf186/fpdf.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\freshwordpress\wp-content\themes\hello-elementor-child\invoice.php:3
+Stack trace:
+#0 C:\xampp\htdocs\freshwordpress\wp-content\themes\hello-elementor-child\functions.php(7): require_once()
+#1 C:\xampp\htdocs\freshwordpress\wp-settings.php(663): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freshwordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freshwordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freshwordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\freshwordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\freshwordpress\wp-content\themes\hello-elementor-child\invoice.php on line 3
+
+2024-05-14T15:05:57+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\freshwordpress/fpdf186/fpdf.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\freshwordpress\wp-content\themes\hello-elementor-child\invoice.php:3
+Stack trace:
+#0 C:\xampp\htdocs\freshwordpress\wp-content\themes\hello-elementor-child\functions.php(7): require_once()
+#1 C:\xampp\htdocs\freshwordpress\wp-settings.php(663): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freshwordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freshwordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freshwordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\freshwordpress\wp-admin\options-general.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\freshwordpress\wp-content\themes\hello-elementor-child\invoice.php on line 3
+
+2024-05-14T15:07:33+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\freshwordpress/fpdf186/fpdf.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\freshwordpress\wp-content\themes\hello-elementor-child\invoice.php:3
+Stack trace:
+#0 C:\xampp\htdocs\freshwordpress\wp-content\themes\hello-elementor-child\functions.php(7): require_once()
+#1 C:\xampp\htdocs\freshwordpress\wp-settings.php(663): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freshwordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freshwordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freshwordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\freshwordpress\wp-admin\options-general.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\freshwordpress\wp-content\themes\hello-elementor-child\invoice.php on line 3
+
+2024-05-14T15:09:04+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\freshwordpress\wp-content\themes\hello-elementor-child/invoice.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\freshwordpress\wp-content\themes\hello-elementor-child\functions.php:7
+Stack trace:
+#0 C:\xampp\htdocs\freshwordpress\wp-settings.php(663): include()
+#1 C:\xampp\htdocs\freshwordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\freshwordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\freshwordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\freshwordpress\wp-admin\options-general.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\freshwordpress\wp-content\themes\hello-elementor-child\functions.php on line 7
+

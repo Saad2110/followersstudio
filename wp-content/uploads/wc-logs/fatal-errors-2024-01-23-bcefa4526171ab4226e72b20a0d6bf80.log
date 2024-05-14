@@ -1,0 +1,84 @@
+2024-01-23T13:20:07+00:00 CRITICAL Uncaught Exception: FPDF error: Can't open image file: https://stagingdev.website/FollowersStudio/wp-content/uploads/2024/01/FOLLOWERS-STUDIO.png in /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php:267
+Stack trace:
+#0 /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php(1276): FPDF->Error()
+#1 /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php(890): FPDF->_parsepng()
+#2 /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/invoice.php(22): FPDF->Image()
+#3 /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php(330): PDF->Header()
+#4 /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php(282): FPDF->AddPage()
+#5 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/class-wp-hook.php(324): stripe_session()
+#6 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/u844534432/domains/followerstudio.net/public_html/wp-admin/admin-ajax.php(188): do_action()
+#9 {main}
+  thrown in /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php on line 267
+
+2024-01-23T13:20:57+00:00 CRITICAL Uncaught Exception: FPDF error: Can't open image file: https://stagingdev.website/FollowersStudio/wp-content/uploads/2024/01/FOLLOWERS-STUDIO.png in /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php:267
+Stack trace:
+#0 /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php(1276): FPDF->Error()
+#1 /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php(890): FPDF->_parsepng()
+#2 /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/invoice.php(22): FPDF->Image()
+#3 /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php(330): PDF->Header()
+#4 /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php(282): FPDF->AddPage()
+#5 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/class-wp-hook.php(324): stripe_session()
+#6 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/u844534432/domains/followerstudio.net/public_html/wp-admin/admin-ajax.php(188): do_action()
+#9 {main}
+  thrown in /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php on line 267
+
+2024-01-23T13:21:02+00:00 CRITICAL Uncaught Exception: FPDF error: Can't open image file: https://stagingdev.website/FollowersStudio/wp-content/uploads/2024/01/FOLLOWERS-STUDIO.png in /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php:267
+Stack trace:
+#0 /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php(1276): FPDF->Error()
+#1 /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php(890): FPDF->_parsepng()
+#2 /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/invoice.php(22): FPDF->Image()
+#3 /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php(330): PDF->Header()
+#4 /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php(282): FPDF->AddPage()
+#5 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/class-wp-hook.php(324): stripe_session()
+#6 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/u844534432/domains/followerstudio.net/public_html/wp-admin/admin-ajax.php(188): do_action()
+#9 {main}
+  thrown in /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php on line 267
+
+2024-01-23T13:22:34+00:00 CRITICAL Uncaught Exception: FPDF error: Can't open image file: https://stagingdev.website/FollowersStudio/wp-content/uploads/2024/01/FOLLOWERS-STUDIO.png in /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php:267
+Stack trace:
+#0 /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php(1276): FPDF->Error()
+#1 /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php(890): FPDF->_parsepng()
+#2 /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/invoice.php(22): FPDF->Image()
+#3 /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php(330): PDF->Header()
+#4 /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php(282): FPDF->AddPage()
+#5 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/class-wp-hook.php(324): stripe_session()
+#6 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/u844534432/domains/followerstudio.net/public_html/wp-admin/admin-ajax.php(188): do_action()
+#9 {main}
+  thrown in /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php on line 267
+
+2024-01-23T13:23:23+00:00 CRITICAL Uncaught Exception: FPDF error: Can't open image file: https://stagingdev.website/FollowersStudio/wp-content/uploads/2024/01/FOLLOWERS-STUDIO.png in /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php:267
+Stack trace:
+#0 /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php(1276): FPDF->Error()
+#1 /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php(890): FPDF->_parsepng()
+#2 /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/invoice.php(22): FPDF->Image()
+#3 /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php(330): PDF->Header()
+#4 /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php(282): FPDF->AddPage()
+#5 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/class-wp-hook.php(324): stripe_session()
+#6 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/u844534432/domains/followerstudio.net/public_html/wp-admin/admin-ajax.php(188): do_action()
+#9 {main}
+  thrown in /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php on line 267
+
+2024-01-23T13:25:07+00:00 CRITICAL Uncaught Exception: FPDF error: Can't open image file: https://stagingdev.website/FollowersStudio/wp-content/uploads/2024/01/FOLLOWERS-STUDIO.png in /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php:267
+Stack trace:
+#0 /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php(1276): FPDF->Error()
+#1 /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php(890): FPDF->_parsepng()
+#2 /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/invoice.php(22): FPDF->Image()
+#3 /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php(330): PDF->Header()
+#4 /home/u844534432/domains/followerstudio.net/public_html/wp-content/themes/hello-elementor-child/functions.php(282): FPDF->AddPage()
+#5 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/class-wp-hook.php(324): stripe_session()
+#6 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /home/u844534432/domains/followerstudio.net/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/u844534432/domains/followerstudio.net/public_html/wp-admin/admin-ajax.php(188): do_action()
+#9 {main}
+  thrown in /home/u844534432/domains/followerstudio.net/public_html/fpdf186/fpdf.php on line 267
+

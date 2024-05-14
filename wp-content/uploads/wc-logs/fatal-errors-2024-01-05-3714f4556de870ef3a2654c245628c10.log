@@ -1,0 +1,221 @@
+2024-01-05T07:43:54+00:00 CRITICAL Uncaught Stripe\Exception\UnexpectedValueException: Could not determine which URL to request: Stripe\Checkout\Session instance has invalid ID:  in /home/stagfdif/public_html/FollowersStudio/vendor/stripe/stripe-php/lib/ApiResource.php:107
+Stack trace:
+#0 /home/stagfdif/public_html/FollowersStudio/vendor/stripe/stripe-php/lib/ApiResource.php(121): Stripe\ApiResource::resourceUrl()
+#1 /home/stagfdif/public_html/FollowersStudio/vendor/stripe/stripe-php/lib/ApiResource.php(57): Stripe\ApiResource->instanceUrl()
+#2 /home/stagfdif/public_html/FollowersStudio/vendor/stripe/stripe-php/lib/ApiOperations/Retrieve.php(26): Stripe\ApiResource->refresh()
+#3 /home/stagfdif/public_html/FollowersStudio/wp-content/themes/hello-elementor-child/functions.php(163): Stripe\Checkout\Session::retrieve()
+#4 /home/stagfdif/public_html/FollowersStudio/wp-includes/shortcodes.php(433): get_stripe_return_data()
+#5 [internal function]: do_shortcode_tag()
+#6 /home/stagfdif/public_html/FollowersStudio/wp-includes/shortcodes.php(273): preg_replace_callback()
+#7 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode()
+#8 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#9 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#10 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/widget-base.php(755): Elementor\Widget_Base->render_content()
+#11 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Widget_Base->print_content()
+#12 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#13 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#14 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#15 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#16 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/core/base/document.php(1749): Elementor\Element_Base->print_element()
+#17 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/core/base/document.php(1144): Elementor\Core\Base\Document->print_elements()
+#18 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/frontend.php(1179): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#19 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/frontend.php(1074): Elementor\Frontend->get_builder_content()
+#20 /home/stagfdif/public_html/FollowersStudio/wp-includes/class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content()
+#21 /home/stagfdif/public_html/FollowersStudio/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#22 /home/stagfdif/public_html/FollowersStudio/wp-includes/post-template.php(256): apply_filters()
+#23 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/modules/page-templates/module.php(190): the_content()
+#24 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#25 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/modules/page-templates/module.php(207): call_user_func()
+#26 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#27 /home/stagfdif/public_html/FollowersStudio/wp-includes/template-loader.php(106): include('/home/stagfdif/...')
+#28 /home/stagfdif/public_html/FollowersStudio/wp-blog-header.php(19): require_once('/home/stagfdif/...')
+#29 /home/stagfdif/public_html/FollowersStudio/index.php(17): require('/home/stagfdif/...')
+#30 {main}
+  thrown in /home/stagfdif/public_html/FollowersStudio/vendor/stripe/stripe-php/lib/ApiResource.php on line 107
+
+2024-01-05T07:46:15+00:00 CRITICAL Uncaught Error: Class "Stripe\Stripe" not found in /home/stagfdif/public_html/FollowersStudio/wp-content/themes/hello-elementor-child/functions.php:158
+Stack trace:
+#0 /home/stagfdif/public_html/FollowersStudio/wp-includes/shortcodes.php(433): get_stripe_return_data()
+#1 [internal function]: do_shortcode_tag()
+#2 /home/stagfdif/public_html/FollowersStudio/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode()
+#4 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#5 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#6 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/widget-base.php(755): Elementor\Widget_Base->render_content()
+#7 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Widget_Base->print_content()
+#8 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#9 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#10 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#11 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#12 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/core/base/document.php(1749): Elementor\Element_Base->print_element()
+#13 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/core/base/document.php(1144): Elementor\Core\Base\Document->print_elements()
+#14 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/frontend.php(1179): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#15 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/frontend.php(1074): Elementor\Frontend->get_builder_content()
+#16 /home/stagfdif/public_html/FollowersStudio/wp-includes/class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content()
+#17 /home/stagfdif/public_html/FollowersStudio/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#18 /home/stagfdif/public_html/FollowersStudio/wp-includes/post-template.php(256): apply_filters()
+#19 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/modules/page-templates/module.php(190): the_content()
+#20 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#21 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/modules/page-templates/module.php(207): call_user_func()
+#22 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#23 /home/stagfdif/public_html/FollowersStudio/wp-includes/template-loader.php(106): include('/home/stagfdif/...')
+#24 /home/stagfdif/public_html/FollowersStudio/wp-blog-header.php(19): require_once('/home/stagfdif/...')
+#25 /home/stagfdif/public_html/FollowersStudio/index.php(17): require('/home/stagfdif/...')
+#26 {main}
+  thrown in /home/stagfdif/public_html/FollowersStudio/wp-content/themes/hello-elementor-child/functions.php on line 158
+
+2024-01-05T07:47:51+00:00 CRITICAL Uncaught Error: Class "Stripe\Stripe" not found in /home/stagfdif/public_html/FollowersStudio/wp-content/themes/hello-elementor-child/functions.php:158
+Stack trace:
+#0 /home/stagfdif/public_html/FollowersStudio/wp-includes/shortcodes.php(433): get_stripe_return_data()
+#1 [internal function]: do_shortcode_tag()
+#2 /home/stagfdif/public_html/FollowersStudio/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode()
+#4 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#5 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#6 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/widget-base.php(755): Elementor\Widget_Base->render_content()
+#7 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Widget_Base->print_content()
+#8 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#9 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#10 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#11 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#12 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/core/base/document.php(1749): Elementor\Element_Base->print_element()
+#13 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/core/base/document.php(1144): Elementor\Core\Base\Document->print_elements()
+#14 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/frontend.php(1179): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#15 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/frontend.php(1074): Elementor\Frontend->get_builder_content()
+#16 /home/stagfdif/public_html/FollowersStudio/wp-includes/class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content()
+#17 /home/stagfdif/public_html/FollowersStudio/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#18 /home/stagfdif/public_html/FollowersStudio/wp-includes/post-template.php(256): apply_filters()
+#19 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/modules/page-templates/module.php(190): the_content()
+#20 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#21 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/modules/page-templates/module.php(207): call_user_func()
+#22 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#23 /home/stagfdif/public_html/FollowersStudio/wp-includes/template-loader.php(106): include('/home/stagfdif/...')
+#24 /home/stagfdif/public_html/FollowersStudio/wp-blog-header.php(19): require_once('/home/stagfdif/...')
+#25 /home/stagfdif/public_html/FollowersStudio/index.php(17): require('/home/stagfdif/...')
+#26 {main}
+  thrown in /home/stagfdif/public_html/FollowersStudio/wp-content/themes/hello-elementor-child/functions.php on line 158
+
+2024-01-05T07:50:07+00:00 CRITICAL Uncaught Stripe\Exception\UnexpectedValueException: Could not determine which URL to request: Stripe\Checkout\Session instance has invalid ID:  in /home/stagfdif/public_html/FollowersStudio/vendor/stripe/stripe-php/lib/ApiResource.php:107
+Stack trace:
+#0 /home/stagfdif/public_html/FollowersStudio/vendor/stripe/stripe-php/lib/ApiResource.php(121): Stripe\ApiResource::resourceUrl()
+#1 /home/stagfdif/public_html/FollowersStudio/vendor/stripe/stripe-php/lib/ApiResource.php(57): Stripe\ApiResource->instanceUrl()
+#2 /home/stagfdif/public_html/FollowersStudio/vendor/stripe/stripe-php/lib/ApiOperations/Retrieve.php(26): Stripe\ApiResource->refresh()
+#3 /home/stagfdif/public_html/FollowersStudio/wp-content/themes/hello-elementor-child/functions.php(163): Stripe\Checkout\Session::retrieve()
+#4 /home/stagfdif/public_html/FollowersStudio/wp-includes/shortcodes.php(433): get_stripe_return_data()
+#5 [internal function]: do_shortcode_tag()
+#6 /home/stagfdif/public_html/FollowersStudio/wp-includes/shortcodes.php(273): preg_replace_callback()
+#7 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode()
+#8 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#9 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#10 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/widget-base.php(755): Elementor\Widget_Base->render_content()
+#11 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Widget_Base->print_content()
+#12 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#13 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#14 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#15 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#16 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/core/base/document.php(1749): Elementor\Element_Base->print_element()
+#17 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/core/base/document.php(1144): Elementor\Core\Base\Document->print_elements()
+#18 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/frontend.php(1179): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#19 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/frontend.php(1074): Elementor\Frontend->get_builder_content()
+#20 /home/stagfdif/public_html/FollowersStudio/wp-includes/class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content()
+#21 /home/stagfdif/public_html/FollowersStudio/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#22 /home/stagfdif/public_html/FollowersStudio/wp-includes/post-template.php(256): apply_filters()
+#23 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/modules/page-templates/module.php(190): the_content()
+#24 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#25 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/modules/page-templates/module.php(207): call_user_func()
+#26 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#27 /home/stagfdif/public_html/FollowersStudio/wp-includes/template-loader.php(106): include('/home/stagfdif/...')
+#28 /home/stagfdif/public_html/FollowersStudio/wp-blog-header.php(19): require_once('/home/stagfdif/...')
+#29 /home/stagfdif/public_html/FollowersStudio/index.php(17): require('/home/stagfdif/...')
+#30 {main}
+  thrown in /home/stagfdif/public_html/FollowersStudio/vendor/stripe/stripe-php/lib/ApiResource.php on line 107
+
+2024-01-05T09:42:18+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on bool in /home/stagfdif/public_html/FollowersStudio/wp-content/themes/hello-elementor-child/functions.php:166
+Stack trace:
+#0 /home/stagfdif/public_html/FollowersStudio/wp-includes/shortcodes.php(433): get_stripe_return_data()
+#1 [internal function]: do_shortcode_tag()
+#2 /home/stagfdif/public_html/FollowersStudio/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode()
+#4 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#5 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#6 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/widget-base.php(755): Elementor\Widget_Base->render_content()
+#7 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Widget_Base->print_content()
+#8 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#9 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#10 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#11 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#12 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/core/base/document.php(1749): Elementor\Element_Base->print_element()
+#13 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/core/base/document.php(1144): Elementor\Core\Base\Document->print_elements()
+#14 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/frontend.php(1179): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#15 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/frontend.php(1074): Elementor\Frontend->get_builder_content()
+#16 /home/stagfdif/public_html/FollowersStudio/wp-includes/class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content()
+#17 /home/stagfdif/public_html/FollowersStudio/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#18 /home/stagfdif/public_html/FollowersStudio/wp-includes/post-template.php(256): apply_filters()
+#19 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/modules/page-templates/module.php(190): the_content()
+#20 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#21 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/modules/page-templates/module.php(207): call_user_func()
+#22 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#23 /home/stagfdif/public_html/FollowersStudio/wp-includes/template-loader.php(106): include('/home/stagfdif/...')
+#24 /home/stagfdif/public_html/FollowersStudio/wp-blog-header.php(19): require_once('/home/stagfdif/...')
+#25 /home/stagfdif/public_html/FollowersStudio/index.php(17): require('/home/stagfdif/...')
+#26 {main}
+  thrown in /home/stagfdif/public_html/FollowersStudio/wp-content/themes/hello-elementor-child/functions.php on line 166
+
+2024-01-05T09:42:41+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on bool in /home/stagfdif/public_html/FollowersStudio/wp-content/themes/hello-elementor-child/functions.php:166
+Stack trace:
+#0 /home/stagfdif/public_html/FollowersStudio/wp-includes/shortcodes.php(433): get_stripe_return_data()
+#1 [internal function]: do_shortcode_tag()
+#2 /home/stagfdif/public_html/FollowersStudio/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode()
+#4 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/controls-stack.php(2297): Elementor\Widget_Shortcode->render()
+#5 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#6 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/widget-base.php(755): Elementor\Widget_Base->render_content()
+#7 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Widget_Base->print_content()
+#8 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#9 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#10 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#11 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#12 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/core/base/document.php(1749): Elementor\Element_Base->print_element()
+#13 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/core/base/document.php(1144): Elementor\Core\Base\Document->print_elements()
+#14 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/frontend.php(1179): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#15 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/includes/frontend.php(1074): Elementor\Frontend->get_builder_content()
+#16 /home/stagfdif/public_html/FollowersStudio/wp-includes/class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content()
+#17 /home/stagfdif/public_html/FollowersStudio/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#18 /home/stagfdif/public_html/FollowersStudio/wp-includes/post-template.php(256): apply_filters()
+#19 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/modules/page-templates/module.php(190): the_content()
+#20 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#21 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/modules/page-templates/module.php(207): call_user_func()
+#22 /home/stagfdif/public_html/FollowersStudio/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#23 /home/stagfdif/public_html/FollowersStudio/wp-includes/template-loader.php(106): include('/home/stagfdif/...')
+#24 /home/stagfdif/public_html/FollowersStudio/wp-blog-header.php(19): require_once('/home/stagfdif/...')
+#25 /home/stagfdif/public_html/FollowersStudio/index.php(17): require('/home/stagfdif/...')
+#26 {main}
+  thrown in /home/stagfdif/public_html/FollowersStudio/wp-content/themes/hello-elementor-child/functions.php on line 166
+
+2024-01-05T09:49:13+00:00 CRITICAL Uncaught Error: Undefined constant "_POST" in /home/stagfdif/public_html/FollowersStudio/wp-content/themes/hello-elementor-child/functions.php:108
+Stack trace:
+#0 /home/stagfdif/public_html/FollowersStudio/wp-includes/class-wp-hook.php(324): stripe_session()
+#1 /home/stagfdif/public_html/FollowersStudio/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /home/stagfdif/public_html/FollowersStudio/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/stagfdif/public_html/FollowersStudio/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/stagfdif/public_html/FollowersStudio/wp-content/themes/hello-elementor-child/functions.php on line 108
+
+2024-01-05T09:50:26+00:00 CRITICAL Uncaught Error: Undefined constant "_POST" in /home/stagfdif/public_html/FollowersStudio/wp-content/themes/hello-elementor-child/functions.php:108
+Stack trace:
+#0 /home/stagfdif/public_html/FollowersStudio/wp-includes/class-wp-hook.php(324): stripe_session()
+#1 /home/stagfdif/public_html/FollowersStudio/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /home/stagfdif/public_html/FollowersStudio/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/stagfdif/public_html/FollowersStudio/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/stagfdif/public_html/FollowersStudio/wp-content/themes/hello-elementor-child/functions.php on line 108
+
+2024-01-05T09:51:55+00:00 CRITICAL Uncaught Error: Undefined constant "_POST" in /home/stagfdif/public_html/FollowersStudio/wp-content/themes/hello-elementor-child/functions.php:108
+Stack trace:
+#0 /home/stagfdif/public_html/FollowersStudio/wp-includes/class-wp-hook.php(324): stripe_session()
+#1 /home/stagfdif/public_html/FollowersStudio/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /home/stagfdif/public_html/FollowersStudio/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/stagfdif/public_html/FollowersStudio/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/stagfdif/public_html/FollowersStudio/wp-content/themes/hello-elementor-child/functions.php on line 108
+

@@ -1,0 +1,363 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.no-record-order p {
+    font-family: "Brinnan", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+.som-password-error-message, .som-password-sent-message {
+    background: transparent !important;
+    color: red;
+    font-family: "Brinnan", sans-serif;
+    border: 0;
+    margin-bottom: 0;
+}
+.icon-columns img {
+    width: 43px;
+}
+.profile-image-header {
+   width: 60px;
+    height: 60px !important;
+    border-radius: 50% !important;
+    overflow: hidden;
+    margin: 0 14px;
+    object-fit: cover;
+}
+.order-error {
+	display : none;
+    color: #F71C36;
+    font-family: Brinnan;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+select.sorting-dropdown {
+    border-radius: 12px;
+    border: 1px solid #CFCFCF;
+    opacity: 0.5;
+    background: #EAEAEA;
+    padding: 19px 24px;
+    color: #1B1633;
+    font-family: "Brinnan";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+select.sorting-dropdown {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("https://followerstudio.net/wp-content/uploads/2024/01/arrowdown2.png");
+    background-repeat: no-repeat;
+    background-position-x: 85%;
+    background-position-y: 16px;
+    background-size: 30px;
+}
+
+select.sorting-dropdown:focus {
+    outline: none;
+}
+.profile-username, .profile-email, .order-platform-name, .order-qty-field, .social_url {
+    font-family: 'Brinnan' !important;
+    font-weight: 300 !important;
+    font-size: 18px !important;
+    line-height: 21.9px;
+}
+.no-record-order-detail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-record-order-detail h1 {
+    width: 100%;
+}
+.order-detail-again {
+    padding: 16px 48px !important;
+    border-radius: 12px;
+    background: var(--Insta, linear-gradient(45deg, #D6B43D 14.64%, #DBA93F 18.25%, #E88A45 24.76%, #EB8246 26.24%, #E7774D 29.56%, #DD5860 35.43%, #DB5164 36.56%, #D2466C 47.45%, #C93B73 54.74%, #CB3179 57.57%, #A23394 66.48%, #7F35AB 75.17%, #7D35AB 78.99%, #7537AA 81.11%, #673AA9 82.81%, #533DA8 84.29%, #4041A6 85.36%));
+    font-family: 'Brinnan' !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+}
+
+a.order-back-link {
+    width: 151px;
+    border-radius: 12px;
+    opacity: 0.4;
+    background: var(--Dark, #1B1633);
+    font-family: 'BRINNAN' !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+.order-field-design label {
+    font-family: 'Brinnan' !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    color: #1B1633 !important;
+}
+
+.order-platform-name, .order-qty-field, .social_url {
+    background: #F6F6F6 !important;
+    border-radius: 12px !important;
+    color: #1B1633 !important;
+    border: none !important;
+    width: 100%;
+    padding: 15px !important;
+    margin: 5px 0 5px 0;
+}
+
+
+.order-platform-name:focus, .order-qty-field:focus, .social_url:focus {
+    outline: none;
+}
+input#somfrp_user_info:focus {
+    outline: none;
+}
+form#resetpasswordform fieldset {
+    border: 0 !important;
+}
+
+form#resetpasswordform legend {
+    display: none;
+}
+
+input#som_new_user_pass {
+    max-width: 100% !important;
+    background: #F6F6F6 !important;
+    border-radius: 12px !important;
+    color: #1B1633 !important;
+    border: 0;
+    padding: 15px;
+    opacity: 0.4;
+}
+
+input#som_new_user_pass_again {
+    max-width: 100%;
+    background: #F6F6F6 !important;
+    border-radius: 12px !important;
+    color: #1B1633 !important;
+    border: 0;
+    padding: 15px;
+    opacity: 0.4;
+}
+
+form#resetpasswordform label {
+    font-family: 'Brinnan' !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    padding-top: 10px !important;
+    color: #1B1633 !important;
+    margin-bottom: 10px;
+}
+form#lostpasswordform fieldset {
+    border: 0;
+}
+
+.lostpassword-submit {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 30px 0;
+}
+
+label {}
+
+form#lostpasswordform label {
+    font-family: 'Brinnan' !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    padding-top: 56px !important;
+    color: #1B1633 !important;
+}
+
+input#somfrp_user_info {
+    background: #F6F6F6 !important;
+    border-radius: 12px !important;
+    color: #1B1633 !important;
+    border: 0;
+    padding: 15px;
+    opacity: 0.4;
+    margin-top: 10px;
+}
+
+button#reset-pass-submit {
+    padding: 16px 48px !important;
+    border-radius: 12px;
+    background: var(--Insta, linear-gradient(45deg, #D6B43D 14.64%, #DBA93F 18.25%, #E88A45 24.76%, #EB8246 26.24%, #E7774D 29.56%, #DD5860 35.43%, #DB5164 36.56%, #D2466C 47.45%, #C93B73 54.74%, #CB3179 57.57%, #A23394 66.48%, #7F35AB 75.17%, #7D35AB 78.99%, #7537AA 81.11%, #673AA9 82.81%, #533DA8 84.29%, #4041A6 85.36%));
+    font-family: 'Brinnan' !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    color: #ffffff;
+    border: 0;
+}
+
+a.lost-pass-cancel {
+    padding: 16px 40px !important;
+    border-radius: 12px;
+    opacity: 0.4;
+    background: var(--Dark, #1B1633);
+    font-family: 'BRINNAN' !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    color: #ffffff;
+}
+.name-error, .email-error, .invalid-email-error, .password-error, .repeat-password-error, .not-match-password-error {
+    display: none;
+    color:red !important;
+}
+
+.success-response {
+  color: green;
+  font-family: 'Brinnan' !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+}
+.error-response {
+  color: red;
+  font-family: 'Brinnan' !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+}
+a.logged-in-button {
+    padding: 16px 48px !important;
+    border-radius: 12px;
+    background: var(--Insta, linear-gradient(45deg, #D6B43D 14.64%, #DBA93F 18.25%, #E88A45 24.76%, #EB8246 26.24%, #E7774D 29.56%, #DD5860 35.43%, #DB5164 36.56%, #D2466C 47.45%, #C93B73 54.74%, #CB3179 57.57%, #A23394 66.48%, #7F35AB 75.17%, #7D35AB 78.99%, #7537AA 81.11%, #673AA9 82.81%, #533DA8 84.29%, #4041A6 85.36%));
+    font-family: 'Brinnan' !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    color: #ffffff;
+}
+
+.not-loggedin-user-container {
+    text-align: center;
+}
+
+.not-loggedin-user-container h1 {
+    margin-bottom: 50px;
+}
+.page-id-925 .elementor-section {background: #ffffff;}
+.required-text {
+    color: red;
+    font-family: "Brinnan";
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.login-email-error, .login-password-error {
+    display: none;
+}
+  .user-register-success, .user-login-success {
+    color: green;
+    font-weight: 400;
+    font-family: "Brinnan";
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.user-register-error, .user-login-error {
+	 color: red;
+    font-weight: 400;
+    font-family: "Brinnan";
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.registration-form input[type="text"],
+    .registration-form  input[type="password"] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 5px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+      }
+
+   .registration-form   input[type="text"]:focus,
+    .registration-form  input[type="password"]:focus {
+        background-color: #ddd;
+        outline: none;
+      }
+
+    .registration-form  hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+      }
+
+.btn-design {
+        background-color: #04aa6d;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        opacity: 0.9;
+      }
+
+.btn-group-regsiter {
+    display: flex;
+    justify-content: space-between;
+    padding-top:50px !important;
+    padding-bottom:30px !important;
+}
+
+      button:hover {
+        opacity: 1;
+      }
+
+      /* Extra styles for the cancel button */
+    .registration-form  .cancelbtn {
+        padding: 14px 20px;
+        background-color: #f44336;
+      }
+
+      /* Float cancel and signup buttons and add an equal width */
+    .registration-form  .cancelbtn,
+     .registration-form .signupbtn {
+        float: left;
+        width: 50%;
+      }
+
+      /* Add padding to container elements */
+   .registration-form .container {
+        padding: 16px;
+      }
+
+      /* Clear floats */
+     .registration-form .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .form-heading {
+        text-align: center;
+      }
+
+      .form-bottom-text {
+        text-align: center !important;
+      }
+
+    .registration-form  .clearfix {
+        display: flex !important;
+        justify-content: space-between;
+      }
+
+      /* Change styles for cancel button and signup button on extra small screens */
+      @media screen and (max-width: 300px) {
+        .cancelbtn,
+        .signupbtn {
+          width: 100%;
+        }</style>
+<!-- end Simple Custom CSS and JS -->

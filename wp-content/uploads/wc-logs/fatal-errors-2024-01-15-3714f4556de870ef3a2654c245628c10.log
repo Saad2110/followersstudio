@@ -1,0 +1,13 @@
+2024-01-15T08:27:41+00:00 CRITICAL syntax error, unexpected token "<" in /home/stagfdif/public_html/FollowersStudio/wp-content/themes/hello-elementor-child/functions.php on line 905
+
+2024-01-15T08:30:28+00:00 CRITICAL Uncaught Error: Call to a member function exists() on null in /home/stagfdif/public_html/FollowersStudio/wp-includes/user.php:1898
+Stack trace:
+#0 /home/stagfdif/public_html/FollowersStudio/wp-includes/pluggable.php(2781): clean_user_cache()
+#1 /home/stagfdif/public_html/FollowersStudio/wp-content/themes/hello-elementor-child/functions.php(568): wp_set_password()
+#2 /home/stagfdif/public_html/FollowersStudio/wp-includes/class-wp-hook.php(324): user_update_password()
+#3 /home/stagfdif/public_html/FollowersStudio/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/stagfdif/public_html/FollowersStudio/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/stagfdif/public_html/FollowersStudio/wp-admin/admin-ajax.php(188): do_action()
+#6 {main}
+  thrown in /home/stagfdif/public_html/FollowersStudio/wp-includes/user.php on line 1898
+
